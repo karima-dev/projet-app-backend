@@ -31,6 +31,9 @@
       "resolved": "https://registry.npmjs.org/@firebase/analytics-types/-/analytics-types-0.7.0.tgz",
       "integrity": "sha512-DNE2Waiwy5+zZnCfintkDtBfaW6MjIG883474v6Z0K1XZIvl76cLND4iv0YUb48leyF+PJK1KO2XrgHb/KpmhQ=="
     },
+    "scripts": {
+      "start": "node app.js"
+  },
     "@firebase/app": {
       "version": "0.7.8",
       "resolved": "https://registry.npmjs.org/@firebase/app/-/app-0.7.8.tgz",
