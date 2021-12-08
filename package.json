@@ -16,7 +16,10 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "main": "app.js",
   "devDependencies": {},
