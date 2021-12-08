@@ -98,15 +98,15 @@ const postListLivre = async () => {
   const thekey = livreRef.child("livres").push().key;
   return await livreRef.child(thekey).set({
     id: thekey,
-    ean: "9782221255629",
-    titre: "LES BONNES ONDES",
-    auteur: "FABRICE MIDAL",
-    src: "https://lisez6.cdnstatics.com/usuaris/libros/fotos/9782221256/m_libros/9782221255629ORI.jpg",
+    ean: "9782263175008",
+    titre: "MON CAHIER HAPPY AT WORK",
+    auteur: "Fabienne Broucaret",
+    src: "https://lisez6.cdnstatics.com/usuaris/libros/fotos/9782263176/m_libros/9782263175008ORI.jpg",
     nbre: 20,
-    date: "14/10/2021",
-    emplacement:"Couloir:5 Range:12 ",
+    date: "14/01/2021",
+    emplacement:"Couloir:5 Range:12",
     description:
-    "La musique déclenche dans notre cerveau et notre corps des réactions complexes, qui n’ont pas encore livré tous leurs secrets. Ce que commencent néanmoins à découvrir neuroscientifiques et psychologues, c’est qu’elle aurait des effets insoupçonnés jusque-là sur, entre autres, le développement de l’intelligence et l’acquisition du langage chez l’enfant, certains troubles neurologiques dus au vieillissement…"  });
+    "Le rêve ultime : travailler dans un lieu qui ressemble à la maison, dans une atmosphère calme et pleine de bonnes ondes, l’esprit serein, en se sentant en phase avec son job, avec des temps de bien-être prévus au cours de la journée… Le travail good mood, c’est possible ! Toutes les techniques pour trouver sa place dans son job, se ressourcer au travail, s’organiser, être au top de son potentiel et trouver le temps de prendre soin de soi !"  });
 };
 const getAllEmprunts = async () => {
   return empruntRef.once("value");
