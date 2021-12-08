@@ -1,6 +1,13 @@
 {
+  
   "requires": true,
   "lockfileVersion": 1,
+  "name": "BACKEND-BIBLIO",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "@firebase/analytics": {
       "integrity": "sha512-AU3XMwHW7SFGCNeUKKNW2wXGTdmS164ackt/Epu2bDXCT1OcauPE1AVd+ofULSIDCaDUAQVmvw3JrobgogEU7Q==",
