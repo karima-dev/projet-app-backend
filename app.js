@@ -8,7 +8,10 @@ const port=process.env.PORT || 8888
 app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+app.get('/', (req, res) => {
 
+    res.json({ name: port })
+})
 app.use('/livres', biblioRouter);
 //app.use('/decouvrir', usersRouter);
 app.listen(port, () => {
